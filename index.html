@@ -158,27 +158,27 @@
 
         <form action="#">
             <div class="input-box">
-                <div class="input-field">
-                    <input type="text" placeholder="Full Name" required>
+                <div class="input-field field">
+                    <input type="text" placeholder="Name, Vorname" required id="name">
                     <span class="focus"></span>
                 </div>
 
-                <div class="input-field">
-                    <input type="text" placeholder="Email Adresse" required>
+                <div class="input-field field">
+                    <input type="text" placeholder="Email Adresse" required id="email">
                     <span class="focus"></span>
                 </div>
 
                 <span class="animate scroll" style="--i:3;"></span>
             </div>
             
-            <div class="input-box">
+            <div class="input-box field">
                 <div class="input-field">
-                    <input type="number" placeholder="Mobile Number" required>
+                    <input type="number" placeholder="Nummer" required id="phone">
                     <span class="focus"></span>
                 </div>
 
                 <div class="input-field">
-                    <input type="text" placeholder="Email Subject" required>
+                    <input type="text" placeholder="Zweck" required id="subject">
                     <span class="focus"></span>
                 </div>
 
@@ -186,7 +186,7 @@
             </div>
 
             <div class="textarea-field">
-                <textarea name="" id="" cols="30" rows="10" placeholder="deine Nachricht" required></textarea>
+                <textarea id="message" cols="30" rows="10" placeholder="deine Nachricht" required></textarea>
                 <span class="focus"></span>
 
                 <span class="animate scroll" style="--i:7;"></span>
@@ -218,7 +218,9 @@
     </footer>
 
 
-
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="email_script.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
