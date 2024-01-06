@@ -996,7 +996,13 @@ section:nth-child(odd) .animate.scroll{
         display: flex;
         flex-direction: column;
     }
+
+    /* Code für das Image Proplem */
+    .home{
+        background-position: bottom right;
+    }
 }
+
 
 @media (max-width: 462px){
     .home-content h1{
