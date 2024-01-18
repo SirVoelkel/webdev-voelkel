@@ -499,7 +499,7 @@ span{
     display: inline-block;
 
     font-size: 1.6rem;
-    margin: 2rem 0 3rem;
+    margin: 2rem 12rem;
 }
 
 /***** mC *****/
@@ -984,6 +984,10 @@ section:nth-child(odd) .animate.scroll{
         pointer-events: none;
         background: var(--bg-color);
         opacity: .6;
+    }
+
+    .about .about-content p{
+        margin: 2rem 3rem;
     }
 }
 
